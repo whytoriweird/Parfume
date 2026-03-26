@@ -1,130 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
-<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/myGridLayout"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#000000"
-    android:columnCount="3"
-    android:rowCount="5">
+    android:orientation="vertical"
+    android:background="#FFFFFF">
 
-<View
-    android:layout_width="0dp"
-    android:layout_height="0dp"
-    android:layout_columnWeight="1"
-    android:layout_rowWeight="1"
-    android:layout_margin="1dp"
-    android:background="#FFFFFF" />
+    <TextView
+        android:id="@+id/tvLevel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Рівень 1"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="16dp"
+        android:background="#EEEEEE" />
 
-<View
-    android:layout_width="0dp"
-    android:layout_height="0dp"
-    android:layout_columnWeight="1"
-    android:layout_rowWeight="1"
-    android:layout_margin="1dp"
-    android:background="#FFFFFF" />
+    <GridLayout
+        android:id="@+id/myGridLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000"
+        android:columnCount="3"
+        android:rowCount="5">
 
-<View
-    android:layout_width="0dp"
-    android:layout_height="0dp"
-    android:layout_columnWeight="1"
-    android:layout_rowWeight="1"
-    android:layout_margin="1dp"
-    android:background="#FFFFFF" />
+        <View android:layout_width="0dp" android:layout_height="0dp" android:layout_columnWeight="1" android:layout_rowWeight="1" android:layout_margin="1dp" android:background="#FFFFFF" />
+        <View android:layout_width="0dp" android:layout_height="0dp" android:layout_columnWeight="1" android:layout_rowWeight="1" android:layout_margin="1dp" android:background="#FFFFFF" />
+        <View android:layout_width="0dp" android:layout_height="0dp" android:layout_columnWeight="1" android:layout_rowWeight="1" android:layout_margin="1dp" android:background="#FFFFFF" />
 
-<View
-    android:layout_width="0dp"
-    android:layout_height="0dp"
-    android:layout_columnWeight="1"
-    android:layout_rowWeight="1"
-    android:layout_margin="1dp"
-    android:background="#FFFFFF" />
+        <View android:layout_width="0dp" android:layout_height="0dp" android:layout_columnWeight="1" android:layout_rowWeight="1" android:layout_margin="1dp" android:background="#FFFFFF" />
+        <View android:layout_width="0dp" android:layout_height="0dp" android:layout_columnWeight="1" android:layout_rowWeight="1" android:layout_margin="1dp" android:background="#FFFFFF" />
+        <View android:layout_width="0dp" android:layout_height="0dp" android:layout_columnWeight="1" android:layout_rowWeight="1" android:layout_margin="1dp" android:background="#FFFFFF" />
 
-<View
-    android:layout_width="0dp"
-    android:layout_height="0dp"
-    android:layout_columnWeight="1"
-    android:layout_rowWeight="1"
-    android:layout_margin="1dp"
-    android:background="#FFFFFF" />
+        <View android:layout_width="0dp" android:layout_height="0dp" android:layout_columnWeight="1" android:layout_rowWeight="1" android:layout_margin="1dp" android:background="#FFFFFF" />
+        <View android:layout_width="0dp" android:layout_height="0dp" android:layout_columnWeight="1" android:layout_rowWeight="1" android:layout_margin="1dp" android:background="#FFFFFF" />
+        <View android:layout_width="0dp" android:layout_height="0dp" android:layout_columnWeight="1" android:layout_rowWeight="1" android:layout_margin="1dp" android:background="#FFFFFF" />
 
-<View
-    android:layout_width="0dp"
-    android:layout_height="0dp"
-    android:layout_columnWeight="1"
-    android:layout_rowWeight="1"
-    android:layout_margin="1dp"
-    android:background="#FFFFFF" />
+        <View android:layout_width="0dp" android:layout_height="0dp" android:layout_columnWeight="1" android:layout_rowWeight="1" android:layout_margin="1dp" android:background="#FFFFFF" />
+        <View android:layout_width="0dp" android:layout_height="0dp" android:layout_columnWeight="1" android:layout_rowWeight="1" android:layout_margin="1dp" android:background="#FFFFFF" />
+        <View android:layout_width="0dp" android:layout_height="0dp" android:layout_columnWeight="1" android:layout_rowWeight="1" android:layout_margin="1dp" android:background="#FFFFFF" />
 
-<View
-    android:layout_width="0dp"
-    android:layout_height="0dp"
-    android:layout_columnWeight="1"
-    android:layout_rowWeight="1"
-    android:layout_margin="1dp"
-    android:background="#FFFFFF" />
+        <View android:layout_width="0dp" android:layout_height="0dp" android:layout_columnWeight="1" android:layout_rowWeight="1" android:layout_margin="1dp" android:background="#FFFFFF" />
+        <View android:layout_width="0dp" android:layout_height="0dp" android:layout_columnWeight="1" android:layout_rowWeight="1" android:layout_margin="1dp" android:background="#FFFFFF" />
+        <View android:layout_width="0dp" android:layout_height="0dp" android:layout_columnWeight="1" android:layout_rowWeight="1" android:layout_margin="1dp" android:background="#FFFFFF" />
 
-<View
-    android:layout_width="0dp"
-    android:layout_height="0dp"
-    android:layout_columnWeight="1"
-    android:layout_rowWeight="1"
-    android:layout_margin="1dp"
-    android:background="#FFFFFF" />
-
-<View
-    android:layout_width="0dp"
-    android:layout_height="0dp"
-    android:layout_columnWeight="1"
-    android:layout_rowWeight="1"
-    android:layout_margin="1dp"
-    android:background="#FFFFFF" />
-
-<View
-    android:layout_width="0dp"
-    android:layout_height="0dp"
-    android:layout_columnWeight="1"
-    android:layout_rowWeight="1"
-    android:layout_margin="1dp"
-    android:background="#FFFFFF" />
-
-<View
-    android:layout_width="0dp"
-    android:layout_height="0dp"
-    android:layout_columnWeight="1"
-    android:layout_rowWeight="1"
-    android:layout_margin="1dp"
-    android:background="#FFFFFF" />
-
-<View
-    android:layout_width="0dp"
-    android:layout_height="0dp"
-    android:layout_columnWeight="1"
-    android:layout_rowWeight="1"
-    android:layout_margin="1dp"
-    android:background="#FFFFFF" />
-
-<View
-    android:layout_width="0dp"
-    android:layout_height="0dp"
-    android:layout_columnWeight="1"
-    android:layout_rowWeight="1"
-    android:layout_margin="1dp"
-    android:background="#FFFFFF" />
-
-<View
-    android:layout_width="0dp"
-    android:layout_height="0dp"
-    android:layout_columnWeight="1"
-    android:layout_rowWeight="1"
-    android:layout_margin="1dp"
-    android:background="#FFFFFF" />
-
-<View
-    android:layout_width="0dp"
-    android:layout_height="0dp"
-    android:layout_columnWeight="1"
-    android:layout_rowWeight="1"
-    android:layout_margin="1dp"
-    android:background="#FFFFFF" />
-
-</GridLayout>
+    </GridLayout>
+</LinearLayout>
