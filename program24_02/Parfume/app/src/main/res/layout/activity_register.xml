@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Реєстрація"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp"/>
+
+        <EditText android:id="@+id/etRegName" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Ім'я" />
+        <EditText android:id="@+id/etRegSurname" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Прізвище" />
+
+        <EditText android:id="@+id/etRegDob" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Дата народження" android:focusable="false" android:clickable="true" />
+
+        <EditText android:id="@+id/etRegEmail" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Email" android:inputType="textEmailAddress"/>
+        <EditText android:id="@+id/etRegLogin" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Логін" />
+        <EditText android:id="@+id/etRegPassword" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Пароль" android:inputType="textPassword" />
+        <EditText android:id="@+id/etRegPasswordConfirm" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Повтор пароля" android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Зареєструватися" />
+    </LinearLayout>
+</ScrollView>

@@ -12,7 +12,37 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Parfume">
         <activity
-            android:name=".MainActivity"
+            android:name=".ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CartActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ShopActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BrandsAdapter"
+            android:exported="false" />
+        <activity
+            android:name=".BrandsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CatalogAdapter"
+            android:exported="false" />
+        <activity
+            android:name=".CatalogActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MenuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -20,6 +50,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
     </application>
 
 </manifest>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/tvGreeting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Привіт, Користувач!"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/tvRole"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Роль: Клієнт"
+        android:textColor="#FF6200EE"
+        android:layout_marginBottom="32dp"/>
+
+    <Button
+        android:id="@+id/btnAdminCatalog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Управління каталогом (Адмін)"
+        android:backgroundTint="#4CAF50"
+        android:layout_marginBottom="12dp"/>
+
+    <Button
+        android:id="@+id/btnAdminBrands"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Довідник брендів (Адмін)"
+        android:backgroundTint="#4CAF50"
+        android:layout_marginBottom="12dp"/>
+
+    <Button
+        android:id="@+id/btnClientShop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Магазин парфумів"
+        android:layout_marginBottom="12dp"/>
+
+    <Button
+        android:id="@+id/btnClientCart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Мій Кошик"
+        android:layout_marginBottom="12dp"/>
+
+    <Button
+        android:id="@+id/btnClientProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Мій Профіль"
+        android:layout_marginBottom="24dp"/>
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Вийти з акаунта"
+        android:backgroundTint="#F44336" />
+
+</LinearLayout>
