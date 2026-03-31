@@ -32,13 +32,20 @@
         android:layout_marginBottom="12dp"/>
 
     <Button
+        android:id="@+id/btnAdminOrders"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Перегляд замовлень (Адмін)"
+        android:backgroundTint="#4CAF50"
+        android:layout_marginBottom="12dp"/>
+
+    <Button
         android:id="@+id/btnAdminBrands"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Довідник брендів (Адмін)"
         android:backgroundTint="#4CAF50"
         android:layout_marginBottom="12dp"/>
-
     <Button
         android:id="@+id/btnClientShop"
         android:layout_width="match_parent"
