@@ -25,7 +25,7 @@ class CartActivity : AppCompatActivity() {
         val btnCheckout = findViewById<Button>(R.id.btnCheckout)
         val rvCart = findViewById<RecyclerView>(R.id.rvCart)
 
-        // Налаштовує адаптер і передаємо йому функцію видалення
+        // Налаштовує  і передаємо йому функцію видалення
         adapter = CartAdapter(DataStore.cart) { position ->
             DataStore.cart.removeAt(position)
             adapter.notifyItemRemoved(position)
