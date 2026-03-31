@@ -24,6 +24,7 @@ class MenuActivity : AppCompatActivity() {
         val btnClientCart = findViewById<Button>(R.id.btnClientCart)
         val btnClientProfile = findViewById<Button>(R.id.btnClientProfile)
         val btnLogout = findViewById<Button>(R.id.btnLogout)
+        val btnAdminOrders = findViewById<Button>(R.id.btnAdminOrders)
 
         val sharedPref = getSharedPreferences("AppPrefs", Context.MODE_PRIVATE)
 
@@ -47,6 +48,7 @@ class MenuActivity : AppCompatActivity() {
             // Показуємо адмінські кнопки
             btnAdminCatalog.visibility = View.VISIBLE
             btnAdminBrands.visibility = View.VISIBLE
+            btnAdminOrders.visibility = View.VISIBLE
 
             // Ховаємо клієнтські кнопки
             btnClientShop.visibility = View.GONE
@@ -61,6 +63,10 @@ class MenuActivity : AppCompatActivity() {
                 startActivity(Intent(this, BrandsActivity::class.java))
             }
 
+            btnAdminOrders.setOnClickListener {
+                startActivity(Intent(this, AdminOrdersActivity::class.java))
+            }
+
         } else {
             // Режим КЛІЄНТА
             tvRole.text = "Роль: Покупець"
@@ -68,6 +74,7 @@ class MenuActivity : AppCompatActivity() {
             // Ховаємо адмінські кнопки
             btnAdminCatalog.visibility = View.GONE
             btnAdminBrands.visibility = View.GONE
+            btnAdminOrders.visibility = View.GONE
 
             // Показуємо клієнтські кнопки
             btnClientShop.visibility = View.VISIBLE
